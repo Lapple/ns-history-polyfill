@@ -1,11 +1,8 @@
 ## Плагин для Noscript, включающий полифилл для HTML5 History API
 
-В Noscript для смены URL в адресной строке используется HTML5 History API,
-который не поддерживается [в IE раньше 10](http://caniuse.com/#feat=history).
+В Noscript для смены URL в адресной строке используется HTML5 History API, который не поддерживается [в IE раньше 10](http://caniuse.com/#feat=history).
 
-В качестве полифилла используется[devote/HTML5-History-API](https://github.com/devote/HTML5-History-API).
-Скрипт предоставляет стандартизированное API и будет использовать смену
-хеш-фрагмента URL для навигации, например:
+В качестве полифилла используется [devote/HTML5-History-API](https://github.com/devote/HTML5-History-API). Скрипт предоставляет стандартизированное API и будет использовать смену хеш-фрагмента URL для навигации, например:
 
     /notes/141 -> /#/notes/141
 
