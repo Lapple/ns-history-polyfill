@@ -14,7 +14,7 @@
 Достаточно подключить скрипты полифилла и плагина после подключения Noscript:
 
 ```html
-<script type="text/javascript" src="node_modules/noscript/dist/noscript.js"></script>
-<script type="text/javascript" src="node_modules/html5-history-api/history.js"></script>
-<script type="text/javascript" src="node_modules/ns-history-polyfill/ns-history-polyfill.js"></script>
+<script src="node_modules/noscript/dist/noscript.js"></script>
+<script src="node_modules/html5-history-api/history.js"></script>
+<script src="node_modules/ns-history-polyfill/ns-history-polyfill.js"></script>
 ```
